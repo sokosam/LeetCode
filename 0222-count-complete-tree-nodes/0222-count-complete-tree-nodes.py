@@ -4,7 +4,6 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
         if not root: return 0
@@ -27,13 +26,11 @@ class Solution:
                 queue.append((node.left, level + 1))
             elif not lastLevel:
                 lastLevel = level  + 1
-                print(lastLevel)
 
             if node.right:
                 queue.append((node.right, level + 1))
             elif not lastLevel:
                 lastLevel = level  + 1
-                print(lastLevel)
 
         return count
         
