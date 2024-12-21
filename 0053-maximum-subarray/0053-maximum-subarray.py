@@ -3,15 +3,12 @@ class Solution:
         ans = float('-inf')
         curr = ans
         for i in nums:
-            if curr == float('-inf'):
-                curr = i 
-                ans = i
-                continue
-            if i + curr > ans and i + curr > i:
-                curr += i
-            elif i >= curr :
+            if i >= curr and curr + i  < i :
                 curr = i
             else:
                 curr += i
             ans = max(ans,curr)
         return ans
+
+
+# If we choose to add i, the resulting curr needs to be >= i
