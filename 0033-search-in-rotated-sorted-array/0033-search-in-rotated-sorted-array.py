@@ -31,8 +31,6 @@ class Solution:
                 r = m 
             if rightMost < nums[m]:
                 l = m 
-        print(nums[0:m + 1])
-        print(nums[m+1:])
         left = binSearch(nums[0: m + 1], target)
         right = binSearch(nums[m+1 :], target)
         if right != -1:
