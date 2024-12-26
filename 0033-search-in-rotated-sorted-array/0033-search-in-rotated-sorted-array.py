@@ -15,7 +15,7 @@ class Solution:
                     r = m - 1
             return -1
         
-
+        if nums[0] < nums[len(nums) - 1]: return binSearch(nums, target)
         l = 0
         r = len(nums) - 1
         m = 0
