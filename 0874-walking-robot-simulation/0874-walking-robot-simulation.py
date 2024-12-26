@@ -1,4 +1,4 @@
-import bisect
+from bisect import bisect_left, bisect_right, insort_left
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
         horizontal = {}
@@ -11,11 +11,11 @@ class Solution:
             if obstacle[0] not in vertical:
                 vertical[obstacle[0]] = [obstacle[1]]
             else:
-                bisect.insort_left(vertical[obstacle[0]] ,obstacle[1])
+                insort_left(vertical[obstacle[0]] ,obstacle[1])
             if obstacle[1] not in horizontal:
                 horizontal[obstacle[1]] = [obstacle[0]]
             else:
-                bisect.insort_left(horizontal[obstacle[1]] ,obstacle[0])
+                insort_left(horizontal[obstacle[1]] ,obstacle[0])
 
         posX, posY = 0, 0
         ans = 0
@@ -93,10 +93,10 @@ class Solution:
                 if 0 not in vertical:
                     vertical[0] = [0]
                 else:
-                    bisect.insort_left(vertical[0] ,0)
+                    insort_left(vertical[0] ,0)
                 if 0 not in horizontal:
                     horizontal[0] = [0]
                 else:
-                    bisect.insort_left(vertical[0] ,0)
+                    insort_left(vertical[0] ,0)
                 foundZero = False
         return ans
