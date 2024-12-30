@@ -6,41 +6,33 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 
-from typing import Optional
+
 class Solution:
-    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        
 
-        createdNodes = {}
+    def __init__(self):
+        # Dictionary to save the visited node and it's respective clone
+        # as key and value respectively. This helps to avoid cycles.
+        self.visited = {}
 
-        
-        def dfs(createdNodes, node):
-            if not node: return
-            if  node.val in createdNodes and createdNodes[node.val][0]:
-                return
+    def cloneGraph(self, node: Optional["Node"]) -> Optional["Node"]:
+        if not node:
+            return node
 
-            if node.val in createdNodes:
-                newNode = createdNodes[node.val][1]
-            else:
-                newNode = Node(node.val, [])
+        # If the node was already visited before.
+        # Return the clone from the visited dictionary.
+        if node in self.visited:
+            return self.visited[node]
 
-            for i in node.neighbors:
-                if i.val not in createdNodes:
-                    newNeighbor = Node(i.val, [])
-                    createdNodes[i.val] =  (False, newNeighbor)
-                    newNode.neighbors.append(newNeighbor)
-                else:
-                    newNode.neighbors.append(createdNodes[i.val][1])
-            createdNodes[node.val] = (True, newNode)
-            for i in node.neighbors:
-                dfs(createdNodes, i)
+        # Create a clone for the given node.
+        # Note that we don't have cloned neighbors as of now, hence [].
+        clone_node = Node(node.val, [])
 
-        dfs(createdNodes, node)
-        if node and node.val:
-            ans = createdNodes[node.val][1]
-            return ans
-        return None
+        # The key is original node and value being the clone node.
+        self.visited[node] = clone_node
 
-        
+        # Iterate through the neighbors to generate their clones
+        # and prepare a list of cloned neighbors to be added to the cloned node.
+        if node.neighbors:
+            clone_node.neighbors = [self.cloneGraph(n) for n in node.neighbors]
 
-
+        return clone_node
