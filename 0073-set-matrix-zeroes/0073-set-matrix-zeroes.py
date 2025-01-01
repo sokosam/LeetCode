@@ -25,7 +25,7 @@ class Solution:
 
         for row in range(len(matrix)):
             if matrix[row][setCol] == 0 and row != setRow:
-                for col in range(len(matrix)):
+                for col in range(len(matrix[setRow])):
                     matrix[row][col] = 0
 
         for col in range(len(matrix[setRow])):
