@@ -3,30 +3,33 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        
-        def fix(row,col, matrix):
-            for i in range(len(matrix)):
-                if matrix[i][col] == 0:
-                    matrix[i][col] = "True"
-                    fix(i,col,matrix)
-                matrix[i][col] = "True"
-            for i in range(len(matrix[0])):
-                if matrix[row][i]== 0:
-                    matrix[row][i] = "True"
-                    fix(row,i,matrix)
-                matrix[row][i] = "True"
+
+        setRow = -1
+        setCol = -1
 
         for row in range(len(matrix)):
             for col in range(len(matrix[0])):
                 if matrix[row][col] == 0:
-                    fix(row,col,matrix)
+                    if setRow == -1:
+                        setRow = row
+                        setCol = col
+                    matrix[setRow][col] = 0
+                    matrix[row][setCol] = 0
+        if setRow == -1:
+            return    
 
-
-            
-
-        
-        for row in range(len(matrix)):
-            for col in range(len(matrix[0])):
-                if matrix[row][col] == "True":
+        for col in range(len(matrix[setRow])):
+            if matrix[setRow][col] == 0 and col != setCol:
+                for row in range(len(matrix)):
                     matrix[row][col] = 0
+
+        for row in range(len(matrix)):
+            if matrix[row][setCol] == 0 and row != setRow:
+                for col in range(len(matrix)):
+                    matrix[row][col] = 0
+
+        for col in range(len(matrix[setRow])):
+            matrix[setRow][col]= 0
+        for row in range(len(matrix)):
+            matrix[row][setCol]= 0      
         
