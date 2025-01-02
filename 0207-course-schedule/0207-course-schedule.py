@@ -21,9 +21,10 @@ class Solution:
                 ans = ans and check(seen,i,works,courses)
             seen[course] = False
             return ans
+        seen = [False]* numCourses
         for i in range(numCourses):
             if i not in courses: continue
-            seen = [False]* numCourses
+
             if check(seen,i,works,courses):
                 works.add(i)
             else:
