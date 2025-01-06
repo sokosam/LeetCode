@@ -33,11 +33,9 @@ class Solution:
             if n1 < n2:
                 par[n2] = n1
                 fix(edge[0])
-                fix(edge[1])
             else:
                 par[n1] = n2
                 fix(edge[1])
-                fix(edge[0])
 
 
 
