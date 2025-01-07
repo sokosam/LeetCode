@@ -18,11 +18,6 @@ class Solution:
                         return m + 1
                     else:
                         return m
-                # elif m == 0:
-                #     if intervals[m][pos] < newInterval[pos]:
-                #         return m + 1
-                #     else:
-                #         return m
                 elif intervals[m][pos] < newInterval[pos]:
                     l = m + 1
                 else:
@@ -35,9 +30,6 @@ class Solution:
         left = intervalSearch(newInterval, intervals, 0)
         right = intervalSearch(newInterval,intervals,1)
         ans = []
-
-        print(left)
-        print(right)
 
         for i in range(len(intervals)):
             if left <= i < right:
@@ -61,25 +53,4 @@ class Solution:
         if deleteLeft: del ans[left -1]
             
 
-        # left_bound = newInterval[0]
-        # right_bound = newInterval[1]
-        # for i in range(len(intervals)):
-        #     if i == left -1:
-        #         if intervals[left -1][1] >= newInterval[0]:
-        #             left_bound = intervals[left - 1][0]
-        #         else:
-        #             ans.append(intervals[i])
-        #     if right == i:
-        #         if intervals[right][0] <= newInterval[1]:
-        #             ans.append([left_bound, intervals[right][1]])
-        #         else:
-        #             ans.append([left_bound, newInterval[1]])
-        #             ans.append(intervals[i])
-        #     if left <= i < right:
-        #         continue
-        #     else:
-        #         ans.append(intervals[i])
-
-        
-        print(ans)       
         return ans
