@@ -1,14 +1,5 @@
+# Contributed by LeetCode user mereck.
 class Solution:
-    def fib(self, n: int) -> int:
-        prev = 0
-        curr = 1
-
-        if n == 0: return 0
-
-        itr = 1
-
-        while itr < n:
-            prev, curr = curr, prev + curr
-            itr += 1
-        
-        return curr
+    def fib(self, N: int) -> int:
+        golden_ratio = (1 + (5 ** 0.5)) / 2
+        return int(round((golden_ratio ** N) / (5 ** 0.5)))
