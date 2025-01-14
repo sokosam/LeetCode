@@ -5,10 +5,8 @@ class Solution:
         found = 0
         for i in range(len(A)):
 
-            val1 = A[i] -1
-            if A[i] < 0:
-                val1 = -A[i] -1
-            val2 = B[i] -1
+            val1 = abs(A[i]) -1
+            val2 = abs(B[i]) -1
 
             if A[val2] < 0:
                 found +=1
