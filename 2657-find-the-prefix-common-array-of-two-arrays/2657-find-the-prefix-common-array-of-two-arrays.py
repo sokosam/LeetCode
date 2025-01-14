@@ -8,19 +8,15 @@ class Solution:
             val1 = A[i] -1
             if A[i] < 0:
                 val1 = -A[i] -1
-
             val2 = B[i] -1
 
             if A[val2] < 0:
                 found +=1
+            A[val2] *= -1
             if A[val1] < 0:
                 found +=1
-            if val1 == val2:
-                found +=1
-            A[val2] *= -1
             A[val1] *= -1
-            print(A,B)
-            print(val1, val2)
+
             ans.append(found)
         return ans
 
