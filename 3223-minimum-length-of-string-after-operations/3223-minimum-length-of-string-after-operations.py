@@ -6,7 +6,6 @@ class Solution:
                 m[i] = 1
             else:
                 m[i] += 1
-        print(m)
         ans = 0
         for i in m:
             if m[i] % 2 == 1:
