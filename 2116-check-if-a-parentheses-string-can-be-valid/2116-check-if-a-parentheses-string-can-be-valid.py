@@ -1,40 +1,27 @@
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
-        stack = []
-        seen = set()
+        stackLocked = []
+        stackWilds = []
 
         for i in range(len(s)):
-            if locked[i] == '1':
-                if s[i] == '(':
-                    stack.append(i)
-                else:
-                    if len(stack) > 0:
-                        found = stack.pop()
-                        seen.add(found)
-                        seen.add(i)
-
-
-
-        wilds =0 
-        right = 0
-        for i in range(len(s)):
-            if i in seen:
-                continue
-            # temp += s[i] if locked[i] == '0' else "w"
-            if locked[i] == "0":
-                if right > 0:
-                    right -= 1
-                else:
-                    wilds += 1
+            if locked[i] == '0':
+                stackWilds.append(i)
             else:
-                if s[i] == '(':     
-                    right += 1
+                if s[i] == '(':
+                    stackLocked.append(i)
                 else:
-                    if wilds == 0 and right == 0:
-                        return False
+                    if len(stackLocked) > 0:
+                        stackLocked.pop()
+                    elif len(stackWilds) > 0:
+                        stackWilds.pop()
                     else:
-                        if right > 0:
-                            right -=1
-                        else:
-                            wilds -=1
-        return right == 0 and wilds % 2 == 0
+                        return False
+
+        while len(stackLocked) > 0:
+            top = stackLocked.pop()
+            if len(stackWilds) ==0:
+                return False
+            top2 = stackWilds.pop()
+            if top > top2:
+                return False
+        return len(stackWilds) % 2 == 0
