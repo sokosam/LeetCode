@@ -6,11 +6,11 @@ class Solution:
         for i in range(len(s)):
             if locked[i] == '1':
                 if s[i] == '(':
-                    stack.append(('(', i))
+                    stack.append(i)
                 else:
                     if len(stack) > 0:
                         found = stack.pop()
-                        seen.add(found[1])
+                        seen.add(found)
                         seen.add(i)
 
 
