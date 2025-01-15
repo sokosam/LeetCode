@@ -19,7 +19,6 @@ class Solution:
             window = 0
             for i in range(k - 1 , -1):
                 window += code[i]
-            print(window)
             for i in range(len(code)):
                 window += code[i - 1]
                 window -= code[k -1]
