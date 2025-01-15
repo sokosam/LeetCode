@@ -9,7 +9,11 @@ class Solution:
             ans = 0
             sign = 1
             i = start
+            temp = ""
             while i < len(s) and value[i] != ')':
+                if len(temp) > 0 and not value[i].isnumeric():
+                    ans += sign *int(temp) 
+                    temp = ""
                 if value[i] == '(':
                     val , pos = evaluate(i + 1,value)
                     ans += sign*  val
@@ -19,9 +23,11 @@ class Solution:
                 elif value[i] == '+':
                     sign = 1
                 elif value[i].isnumeric():
-                    ans += sign *int(value[i])
+                    temp += value[i]
+                    
                 i+=1
-
+            if len(temp) > 0:
+                ans += sign *int(temp) 
             return ans, i
         
         index =0 
