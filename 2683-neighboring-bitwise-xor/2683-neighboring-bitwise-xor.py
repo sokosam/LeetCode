@@ -4,6 +4,4 @@ class Solution:
 
         for i in range(1, len(derived)):
             ans ^= derived[i]
-        return ans == 0
-        # for i in range(len(derived)):
-        #     if temp[i] != derived[]
+        return not ans 
