@@ -9,9 +9,6 @@ class Solution:
             for col in range(len(mat[0])):
                 m[mat[row][col]] = (row,col)
 
-        print(m)
-        print(rowCounts)
-        print(colCounts)
 
         for i in range(len(arr)):
             row , col = m[arr[i]]
