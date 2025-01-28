@@ -14,7 +14,7 @@ class Solution:
             if dp[curr][jumps] > 0:
                 return dp[curr][jumps]
             ans = 0
-            print(curr)
+            # print(curr)
             for i in adj[curr]:
                 ans += makeJump(jumps - 1, i)
             
