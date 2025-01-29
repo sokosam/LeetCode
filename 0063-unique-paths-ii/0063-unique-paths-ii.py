@@ -3,7 +3,7 @@ class Solution:
         dp = [[0 for _ in range(len(obstacleGrid[0]) + 1)] for _ in range(len(obstacleGrid) + 1)]
 
 
-        dp[1][1] = 1
+        dp[1][1] = 1 if obstacleGrid[0][0] != 1 else 0
         for row in range(1, len(dp)):
             for col in range(1, len(dp[0])):
                 if row == 1 and col ==1: continue
