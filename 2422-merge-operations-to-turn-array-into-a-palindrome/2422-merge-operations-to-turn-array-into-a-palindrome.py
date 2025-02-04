@@ -7,7 +7,7 @@ class Solution:
             if nums[l] == nums[r]:
                 l +=1 
                 r -= 1
-            if nums[l] > nums[r]:
+            elif nums[l] > nums[r]:
                 while nums[r] < nums[l]:
                     r -= 1
                     nums[r] += nums[r + 1]
