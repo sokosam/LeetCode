@@ -1,26 +1,19 @@
 class Solution:
     def minSwaps(self, data: List[int]) -> int:
         
-        l = 0
-        r = sum(data)
-        total = r
+        size = sum(data)
+        minSwap = size - sum(data[0:size])
+        l, r = 0, size - 1
 
+        current = sum(data[0:size])
 
-        countOnes = 0
-        for i in range(r):
-            countOnes+= data[i]
-        ans = float('inf')
-        ans = min(ans, total - countOnes)
+        for i in range(r+1,len(data)):
+            current -= data[l]
+            l += 1
+            current += data[i]
+            minSwap =  min(minSwap, size - current)
         
-        while r < len(data):
-            
-            if data[l] == 1:
-                countOnes -= 1
-            if data[r] ==1:
-                countOnes +=1
-            
-            ans = min(ans, total - countOnes)
-            l +=1
-            r +=1
-        return ans
-            
+        return minSwap
+
+
+        
