@@ -10,15 +10,11 @@ class Solution:
             if curr >= k:
                 ans += (r-l )*(r-l + 1)//2 
                 while curr >= k and l <= r:
-                    # print(curr, r, l, ans)
                     curr //= nums[l]
                     l += 1
-                ans -= (r-l )*(r-l + 1)//2  if (r-l )*(r-l + 1)//2  >= 0 else 0
+                ans -= (r-l )*(r-l + 1)//2 
             r += 1
         ans +=(r-l )*(r-l + 1)//2
-        # for i in nums:
-        #     if i < k:
-        #         ans += 1
-        # print(ans)
+\
         return max(ans,0)
             
