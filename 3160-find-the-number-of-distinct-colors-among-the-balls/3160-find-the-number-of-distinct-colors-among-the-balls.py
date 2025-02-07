@@ -1,12 +1,14 @@
 class Solution:
     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
         colors = {}
-        vals = [0]* (limit + 1)
+        vals = {}
         ans = []
         curr = 0
         for i in queries:
             index = i[0]
             color = i[1]
+            if index not in vals:
+                vals[index] = 0
             if vals[index] != 0 and colors[vals[index]] == 1:
                 curr -=1
                 colors[vals[index]] -= 1
