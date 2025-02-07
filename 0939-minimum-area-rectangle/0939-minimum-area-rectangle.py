@@ -25,4 +25,5 @@ class Solution:
                     else:
                         ans = min(ans, (points[j][1] - points[i][1])* (points[j][0] - points[i][0]))
         
-        return ans
+        return ans if ans != float('inf') else 0
+ 
