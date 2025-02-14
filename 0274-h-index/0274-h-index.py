@@ -2,7 +2,7 @@ class Solution:
     def hIndex(self, citations: List[int]) -> int:
         
         l = 0
-        r = max(citations)
+        r = len(citations)
 
         def verify(citations, h):
             count = 0 
@@ -16,7 +16,6 @@ class Solution:
             m = l + (r-l)//2
 
             check = verify(citations,m)
-            # print(check)
             if check:
                 l = m + 1
                 ans = max(ans, m)
