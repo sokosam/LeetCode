@@ -2,7 +2,7 @@ class Solution:
     def hIndex(self, citations: List[int]) -> int:
         
         l = 0
-        r = len(citations)
+        r = min(len(citations), max(citations))
 
         def verify(citations, h):
             count = 0 
