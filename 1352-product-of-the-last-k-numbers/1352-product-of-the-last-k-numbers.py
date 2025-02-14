@@ -16,8 +16,8 @@ class ProductOfNumbers:
 
     def getProduct(self, k: int) -> int:
         # print(self.s)
-        if len(self.s) - k < 0: return 0
-        if len(self.s) - k == 0: return self.s[-1]
+        if len(self.s) > k: return 0
+        if len(self.s)  == k: return self.s[-1]
         else:
             return self.s[-1]//self.s[-k - 1]
         
