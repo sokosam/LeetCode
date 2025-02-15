@@ -50,7 +50,6 @@ class Solution:
                         mi = i
                     elif nums[i] <= nums[mi]:
                         mi = i
-            print(last, mi)
             if mi == -1:
                 reverse(nums)
                 return
