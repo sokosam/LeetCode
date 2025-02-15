@@ -14,8 +14,8 @@ class Solution:
         """
         def check(n, val, curr, res, step):
             
-            if curr > n or res >n  or curr + res > n:
-                return False
+            # if curr > n or res >n  or curr + res > n:
+            #     return False
             if val + curr + res == n:
                 return True
             if val == 0:
@@ -32,15 +32,13 @@ class Solution:
             # if check(n, val//10, curr + new* 10**(step), res, step + 1):
             #     return True
             # if check(n, val//10, new, res + curr, 1)
-            
-
 
 
         ans = 0
         for i in range(1,n + 1):
             sq = i*i
-            if check(i, sq, 0, 0 ,0):
-                print(i)
+            if (i%9==0 or i%9==1) and check(i, sq, 0, 0 ,0):
+                # print(i)
                 ans += sq
         
         return ans
