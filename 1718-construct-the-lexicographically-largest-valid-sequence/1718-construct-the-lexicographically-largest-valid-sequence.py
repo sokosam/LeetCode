@@ -21,13 +21,9 @@ class Solution:
 
             while start < len(nums) and nums[start] != 0:
                 start += 1
-            # print(nums, start)
             if start >= len(nums):
                 ans.append(nums)
                 return True
-
-
-
 
             for i in range(len(used) -1, 0 ,-1):
                 if not used[i] and i == 1:
