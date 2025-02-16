@@ -7,7 +7,7 @@ class Solution:
                 self.sum.append(self.sum[-1] + i)
             else:
                 self.sum.append(i)
-        print(self.sum)
+
     def pickIndex(self) -> int:
         r  = random.randint(1, self.sum[-1])
         print(r)
