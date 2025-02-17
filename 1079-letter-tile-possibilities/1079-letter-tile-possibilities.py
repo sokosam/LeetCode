@@ -5,23 +5,23 @@ class Solution:
         for i in tiles:
             index = ord(i) - ord("A")
             letters[index] += 1
+        ans = [0]
 
-        ans = set()
-
-        def dfs(k, curr):
+        def dfs(k):
             if k >= len(tiles):
-                ans.add(curr)
+                ans[0] += 1
                 return
-
+            
             for i in range(len(letters)):
                 if letters[i] > 0:
                     letters[i] -= 1
-                    dfs(k + 1, curr + chr(i + ord('A')))
+                    dfs(k + 1)
                     letters[i] += 1
-            dfs(k + 1, curr)
-                
-        dfs(0, "")
-        return len(ans) - 1
+
+
+        for i in range(len(tiles)):
+            dfs(i)
+        return ans[0]
 
 
 
