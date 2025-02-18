@@ -32,16 +32,19 @@ class Solution:
         1 10 3 9 5 8 7 4 6 2
         """
 
-        reverse = nums[:]
-        reverse.sort(reverse = True)
-
-        ordered = nums[:]
-        ordered.sort()
-
-        index = 0
-
-        for i in range(len(nums)):
-            if i % 2 == 1:
-                nums[i] = reverse[i//2]
+        for i in range(len(nums) - 1):
+            if i % 2 == 0:
+                temp = nums[i]
+                nums[i] = min(temp, nums[i + 1])
+                nums[i + 1] = max(temp, nums[i + 1])
             else:
-                nums[i] = ordered[i//2]
+                prev = nums[i - 1]
+                next = nums[i + 1]
+
+                if prev > nums[i]:
+                    nums[i - 1], nums[i ] = nums[i], nums[i -1]
+                if next > nums[i]:
+                    nums[i + 1], nums[i] = nums[i] , nums[i + 1]
+                    
+        
+
