@@ -7,8 +7,7 @@ class Solution:
 
         def bt(i, s):
             if i >= len(pattern):
-                a = ""
-                print(s)
+                a = ""                
                 for i in s:
                     a += str(i)
 
