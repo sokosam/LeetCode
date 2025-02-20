@@ -19,21 +19,25 @@ class Solution:
             return reverse(node, next, left- 1)
         
 
-        if left == 0:
-            end = head
-            ans, afterEnd = reverse(None, head, amt)
-            end.next = afterEnd
-            return ans
+        # if left == 0:
+        #     end = head
+        #     ans, afterEnd = reverse(None, head, amt)
+        #     end.next = afterEnd
+        #     return ans
+        # else:
+        curr = head
+        prev = None
+        while curr and left > 0:
+            prev = curr
+            curr = curr.next
+            left -= 1
+        start, afterEnd =reverse(prev, curr, amt)
+        # prev.next = start
+        curr.next = afterEnd
+        if not prev:
+            return start
         else:
-            curr = head
-            prev = None
-            while curr and left > 0:
-                prev = curr
-                curr = curr.next
-                left -= 1
-            start, afterEnd =reverse(prev, curr, amt)
             prev.next = start
-            curr.next = afterEnd
         return head
                 
 
