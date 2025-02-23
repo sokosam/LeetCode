@@ -31,20 +31,36 @@ class Solution:
 
         """
 
-        if len(preorder) == 1:
-            return TreeNode(preorder[0], None, None)
-        elif len(preorder) == 0:
-            return None
+        def helper(l, r, l2,r2, preorder,inorder):
+            
+            if r-l == 0:
+                return TreeNode(preorder[l], None, None)
+            elif r- l < 0: return None
 
-        pivot = preorder[0]
+            pivot = preorder[l]
+            i = l2
+            while inorder[i] != pivot:
+                i +=1
 
-        i = 0
-        while inorder[i] != pivot:
-            i += 1
+            left_size = i - l2
+            left = helper(l + 1, l + left_size, l2, i - 1, preorder, inorder)
+            right = helper(l + left_size + 1, r, i + 1, r2, preorder, inorder)
+            return TreeNode(pivot, left, right)
+            
+        # if len(preorder) == 1:
+        #     return TreeNode(preorder[0], None, None)
+        # elif len(preorder) == 0:
+        #     return None
 
-        left = self.buildTree(preorder[1:i + 1], inorder[0:i])
-        right = self.buildTree(preorder[i + 1 : ], inorder[i + 1:]) 
+        # pivot = preorder[0]
 
-        return TreeNode(pivot, left, right)
-        
+        # i = 0
+        # while inorder[i] != pivot:
+        #     i += 1
+
+        # left = self.buildTree(preorder[1:i + 1], inorder[0:i])
+        # right = self.buildTree(preorder[i + 1 : ], inorder[i + 1:]) 
+
+        # return TreeNode(pivot, left, right)
+        return helper(0, len(inorder)- 1 , 0, len(inorder) -1 , preorder, inorder)
 
