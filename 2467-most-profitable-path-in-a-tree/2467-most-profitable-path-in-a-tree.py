@@ -30,7 +30,7 @@ class Solution:
         for i in range(len(path)):
             time[path[i]] = i
 
-        print(time)
+        # print(time)
         visited = [False]*len(amount)
         def dfs(t, curr, amt):
 
@@ -44,7 +44,7 @@ class Solution:
 
             ans= float('-inf')
             found= False
-            print(amt, curr, time[curr], t)
+            # print(amt, curr, time[curr], t)
             for vert in adj[curr]:
                 if not visited[vert]:
                     found = True
