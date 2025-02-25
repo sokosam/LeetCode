@@ -16,23 +16,25 @@ class Solution:
         divisor = abs(divisor)
 
         count = 0
-        prev = 0
-        if dividend >= divisor:
-            count += 1
-            dividend -= divisor
-            prev = 1
-
-        temp = divisor
-        
-        while dividend >= temp + temp:
-            prev = prev + prev
-            count += prev
-            dividend -= temp + temp
-            temp += temp
 
         while dividend >= divisor:
-            count +=1
-            dividend -= divisor
+            prev = 0
+            if dividend >= divisor:
+                count += 1
+                dividend -= divisor
+                prev = 1
+
+            temp = divisor
+            
+            while dividend >= temp + temp:
+                prev = prev + prev
+                count += prev
+                dividend -= temp + temp
+                temp += temp
+
+        # while dividend >= divisor:
+        #     count +=1
+        #     dividend -= divisor
 
         if count >= 2147483647 and not negative:
             return 2147483647
