@@ -31,10 +31,5 @@ class Solution:
             else:
                 ans.append(nums[i])
             i+=1
-        print(ans)
 
-
-        
-
-            
         return len(ans)
