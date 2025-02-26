@@ -13,23 +13,28 @@ class Solution:
 
 
         """
-        ans = []
+        prev1 = -1
+        prev2 = -1
         i = 0
+        ans = 0
         while i < len(nums):
-            if i == 0:
-                ans.append(nums[i])
-                i += 1
+            if i > 0 and nums[i] == nums[i -1]:
+                i+=1
                 continue
-            while i < len(nums) and nums[i] == ans[-1]:
-                i += 1
-            if i >= len(nums): break
-            if len(ans) == 1:
-                ans.append(nums[i])
-            elif (nums[i] > ans[-1] > ans[-2]) or (ans[-2] > ans[-1] > nums[i]):
-                ans.pop()
-                ans.append(nums[i])
+            if prev1 == -1:
+                prev1 = nums[i]
+                ans +=1
+            elif prev2 == -1:
+                print(nums[i], prev1)
+                prev2 = nums[i]
+                ans += 1
+            elif nums[i] > prev2 > prev1 or prev1 > prev2 > nums[i]:
+                prev2 = nums[i]
+                i +=1
+                continue
             else:
-                ans.append(nums[i])
-            i+=1
-
-        return len(ans)
+                prev1 = prev2
+                prev2 = nums[i]
+                ans+=1
+            i +=1
+        return ans
