@@ -4,7 +4,7 @@ class Solution:
         m2 = float('inf')
 
         for i in nums:
-            print(m1,m2,i)
+            # print(m1,m2,i) 
             if i > m1 and i > m2:
                 return True
             if i < m1:
