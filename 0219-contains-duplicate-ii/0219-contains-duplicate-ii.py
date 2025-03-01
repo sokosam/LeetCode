@@ -11,7 +11,7 @@ class Solution:
             else:
                 s.add(nums[i])
 
-        print(s)
+        # print(s)
         r = k + 1
         while r < len(nums):
             s.remove(nums[l])
