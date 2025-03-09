@@ -13,18 +13,32 @@ class Solution:
     def flatten(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if not head: return None
 
-        currNext = self.flatten(head.next)
-        if head.child:
-            newNext = self.flatten(head.child)
-            tail = newNext
-            while tail and tail.next:
-                tail = tail.next
+        s = deque()
 
-            if currNext:
-                currNext.prev = tail
-                tail.next = currNext
-            head.next = newNext
-            newNext.prev = head
+        def helper(head):
+            if not head:
+                return 
+
+            s.append(head)     
+            helper(head.child)
+            helper(head.next)
+            head.next = None
             head.child = None
-        return head
+
+        helper(head)
+
+        
+        newHead = Node(1,None, None)
+        curr = newHead
+        while s:
+            curr.next = s.popleft()
+            curr.next.child = None
+            curr.next.prev = curr
+            curr = curr.next
+        newHead.next.prev = None
+        return newHead.next
+
+            
+
+
 
