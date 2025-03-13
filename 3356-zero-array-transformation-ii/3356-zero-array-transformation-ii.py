@@ -1,6 +1,7 @@
 class Solution:
     def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
-
+        
+        if sum(nums) == 0: return 0
 
         def check(nums, queries):
             pref = [0]* (len(nums) + 1)
@@ -33,7 +34,6 @@ class Solution:
 
             if veri:
                 ans = min(ans,m + 1 ) if ans != -1 else m + 1 
-                print(m)
                 r = m -1
             else:
                 l = m + 1
