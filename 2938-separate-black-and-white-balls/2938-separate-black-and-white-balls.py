@@ -3,9 +3,9 @@ class Solution:
         x = []
         for i in s:
             x.append(i)
-        print(x)
+        # print(x)
 
-        while x[-1] == "1":
+        while len(x) > 0 and x[-1] == "1":
             x.pop()
         
         swaps = 0
