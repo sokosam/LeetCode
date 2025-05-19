@@ -1,34 +1,24 @@
 class Solution:
     def reorganizeString(self, s: str) -> str:
         
-        items = {}
+
+        x = [[0,chr(i + ord('a'))] for i in range(26)]
+
         for i in s:
-            if i not in items:
-                items[i] = 1
-            else:
-                items[i] +=1
+            x[ord(i) - ord('a')][0] +=1
+        
+        y = [(-x[i][0], x[i][1]) for i in range(len(x))]
+        heapq.heapify(y)
 
-        pq = [(-items[i], i) for i in items]
-
-        heapq.heapify(pq)
-        prev = ""
-        ans = []
-        while pq:
-
-            if pq[0][1] == prev:
-                val = heapq.heappop(pq)
-                if len(pq) == 0:
-                    return ""
-                val2 = heapq.heappop(pq)
-                ans.append(val2[1])
-                if val2[0] + 1 != 0:
-                    heapq.heappush(pq,(val2[0] +1, val2[1]))
-                heapq.heappush(pq ,val)
-                prev = val2[1]
-            else:
-                val = heapq.heappop(pq)
-                ans.append(val[1])
-                if val[0] + 1 != 0:
-                    heapq.heappush(pq,(val[0] + 1, val[1]))
-                prev = val[1]
-        return "".join(ans)
+        ans = ""
+        prev = None
+        while y and y[0][0] != 0:
+            curr  = heapq.heappop(y)
+            print(curr)
+            ans += curr[1]
+            if prev and prev[0] != 0:
+                heapq.heappush(y,prev)
+            prev = (curr[0] + 1, curr[1])
+        if prev and prev[0] != 0:
+            return ""
+        return ans
