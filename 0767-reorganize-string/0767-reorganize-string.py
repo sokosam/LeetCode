@@ -14,7 +14,6 @@ class Solution:
         prev = None
         while y and y[0][0] != 0:
             curr  = heapq.heappop(y)
-            print(curr)
             ans += curr[1]
             if prev and prev[0] != 0:
                 heapq.heappush(y,prev)
