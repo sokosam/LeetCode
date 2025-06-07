@@ -18,7 +18,7 @@ class Solution:
                     heapq.heappush(h, small)
         ans = ["*"]*len(s)
 
-        print(count)
+
         for i in range(len(count)):
             for k in count[i]:
                 ans[k] = chr(i + ord('a'))
