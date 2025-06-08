@@ -21,11 +21,12 @@ class Solution:
 
         def dfs(curr, ans):
             if curr > n:
-                return
-            
+                return      
             ans.append(curr)
             for i in bases:
                 x = curr * 10
+                if x > n:
+                    continue
                 dfs(x + i, ans)
         for i in bases:
             if i == 0:
