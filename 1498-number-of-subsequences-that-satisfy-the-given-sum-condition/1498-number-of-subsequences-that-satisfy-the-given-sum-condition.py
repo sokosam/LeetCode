@@ -10,7 +10,6 @@ class Solution:
             index = bisect_right(nums,t)
             if index <= idx:
                 continue
-            print(index)
             ans +=  2**(index - idx - 1) % MOD
         return ans% MOD
             
