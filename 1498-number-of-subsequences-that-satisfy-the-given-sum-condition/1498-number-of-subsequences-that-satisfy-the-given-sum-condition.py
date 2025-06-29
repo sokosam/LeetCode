@@ -10,6 +10,6 @@ class Solution:
             index = bisect_right(nums,t)
             if index <= idx:
                 continue
-            ans +=  2**(index - idx - 1) % MOD
+            ans +=  pow(2,index - idx - 1) % MOD
         return ans% MOD
             
