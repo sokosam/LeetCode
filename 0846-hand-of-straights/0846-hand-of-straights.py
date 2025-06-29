@@ -5,7 +5,7 @@ class Solution:
         m = Counter(hand)
         c = list(set(hand))
         c.sort()
-        print(c)
+        # print(c)
 
         for card in c:
             count = m[card]
@@ -14,7 +14,7 @@ class Solution:
             m[card] = 0
             for k in range(1, groupSize):
                 if card + k not in m or m[card +k] < count:
-                    print(m, card, card + k)
+                    # print(m, card, card + k)
                     return False
                 else:
                     m[card + k] -= count
