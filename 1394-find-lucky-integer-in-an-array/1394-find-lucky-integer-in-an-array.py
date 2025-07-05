@@ -1,3 +1,2 @@
 class Solution:
-    def findLucky(self, arr: List[int]) -> int:
-        return max([-1] + [Counter(arr)[key] for key in Counter(arr) if key == Counter(arr)[key]]) 
+    findLucky = lambda self, arr : (lambda c: max([-1] + [c[k] for k in c if k == c[k]]))(Counter(arr))
