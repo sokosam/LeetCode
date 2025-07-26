@@ -12,7 +12,6 @@ class Solution:
                     dp[row][col] = len(word1) - col
                 if col == len(word1) :
                     dp[row][col] = len(word2) - row
-        print(dp)
 
         def helper(i,j):
             if dp[j][i] != float('inf'):
@@ -29,5 +28,4 @@ class Solution:
 
         
         x = helper(0,0)
-        print(dp)
         return x
