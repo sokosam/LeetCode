@@ -5,7 +5,6 @@ class Solution:
         m = len(grid[0])
         for row in grid:
             pos = bisect_left(row, 1)
-            print(pos)
             ans +=m-pos
 
         return ans
