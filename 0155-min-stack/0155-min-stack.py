@@ -13,9 +13,7 @@ class MinStack:
 
         if len(self.mins) > 0 and self.mins[-1] == self.s[-1]:
             self.mins.pop(-1)
-            self.s.pop(-1)
-        else:
-            self.s.pop(-1)
+        self.s.pop(-1)
         
 
     def top(self) -> int:
