@@ -1,15 +1,22 @@
 class Solution:
-    def __init__(self):
-        self.dp = {}
-    def wordBreak(self, s: str, wordDict: List[str], curr = "" ) -> bool:
-        if len(s) == 0: return True
-        else:
-            pter = 0
-            while(pter < len(s)):
-                if curr not in self.dp and s[0:pter +1] in wordDict:
-                    if self.wordBreak( s[pter +1:], wordDict, curr + s[0:pter +1]):
-                        return True
-                pter+=1
-            self.dp[curr] = True
-            return False
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         
+
+        dp = [[2 for _ in range(len(s))] for _ in range(len(wordDict))]
+
+        def helper(i):
+            if i == len(s):
+                return True
+            ans = False
+            for idx,j in enumerate(wordDict):
+                if dp[idx][i] != 2:
+                    ans = ans or dp[idx][i]
+                    continue
+                size =len(j)
+                if i + size <= len(s):
+                    if s[i:i + size] == j:
+                        ans = ans or helper(i + size)
+            dp[idx][i] = ans
+            return ans
+        x =helper(0)
+        return bool(x)
