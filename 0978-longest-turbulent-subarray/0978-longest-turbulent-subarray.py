@@ -25,7 +25,6 @@ class Solution:
                     arr2.append(0)
                 else:
                     arr2.append(1)
-            print(arr2)
 
 
             prev = -2
