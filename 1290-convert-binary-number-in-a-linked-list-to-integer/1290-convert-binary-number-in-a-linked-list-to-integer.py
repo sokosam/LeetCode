@@ -5,19 +5,29 @@
 #         self.next = next
 class Solution:
     def getDecimalValue(self, head: Optional[ListNode]) -> int:
-        val = 0
-
-        s = []
+        prev = None
         while head:
-
-            s.append(head.val)
-            head=head.next
+            next = head.next
+            head.next = prev
+            prev = head
+            head = next
         
-        i = 0
-        while s:
-            curr = s.pop()
-            if curr == 1:
-                mask = 1 << i
+
+        val = 0
+        count = 0
+        while prev:
+            
+            if prev.val == 1:
+                mask = 1 << count
                 val |= mask
-            i +=1
+            count +=1
+            prev=prev.next
+        
+        # i = 0
+        # while s:
+        #     curr = s.pop()
+        #     if curr == 1:
+        #         mask = 1 << i
+        #         val |= mask
+        #     i +=1
         return val
