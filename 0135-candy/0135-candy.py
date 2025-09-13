@@ -56,5 +56,4 @@ class Solution:
         
         for i in range(len(ratings)):
             getVal(i)
-        print(test)
         return sum(test)
