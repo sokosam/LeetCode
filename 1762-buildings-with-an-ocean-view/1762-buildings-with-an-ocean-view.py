@@ -7,5 +7,4 @@ class Solution:
             if heights[i] > tallest:
                 ans.append(i)
             tallest = max(tallest, heights[i])
-        ans.reverse()
-        return ans
+        return ans[::-1]
