@@ -1,5 +1,3 @@
 class Solution:
     def largestUniqueNumber(self, nums: List[int]) -> int:
-        m = Counter(nums)
-
-        return max([-1] + [i for i in m if m[i] == 1])
+        return (lambda x : max([-1] + [i for i in x if x[i] == 1]))(Counter(nums))
