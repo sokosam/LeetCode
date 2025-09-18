@@ -10,15 +10,17 @@ class Solution:
 
 
         """
+        MOD =  (10**9 + 7)
         oneOdd = 0
         oneEven = 0
         twoOdd = 0
         twoEven = 0
         for i in nums:
             if i %2 == 0:
-                twoEven += oneEven
-                oneEven += oneOdd + twoOdd + 1
+                twoEven += oneEven % MOD
+                oneEven += (oneOdd + twoOdd + 1)% MOD
             else:
-                twoOdd +=oneOdd
-                oneOdd += oneEven + twoEven + 1
-        return( oneOdd + oneEven + twoOdd + twoEven)% (10**9 + 7)
+                twoOdd +=(oneOdd)% MOD
+                oneOdd += (oneEven + twoEven + 1)% MOD
+
+        return( oneOdd + oneEven + twoOdd + twoEven) % MOD
