@@ -26,7 +26,6 @@ class Solution:
                 left[curr] = i
             s.append(i)
 
-        print(left, right)
         for i in range(len(left)):
             best = (right[i] - left[i] -1)*heights[i]
             maxHeight = max(maxHeight, best)
