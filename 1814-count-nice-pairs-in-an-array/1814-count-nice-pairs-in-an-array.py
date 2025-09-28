@@ -24,7 +24,7 @@ class Solution:
             reverse = reversedInt(num)
             diff =  num - reverse
             if diff in m:
-                ans += m[diff]
+                ans += m[diff] % (10**9+7)
                 m[diff] +=1
             else:
                 m[diff] = 1
