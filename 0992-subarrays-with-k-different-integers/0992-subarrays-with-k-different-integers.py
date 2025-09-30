@@ -1,25 +1,23 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
         
+        def atMost(n):
+            nonlocal nums
 
-        def atMostK(nums, k):
-            start = 0
-            total = 0
-            curr = 0
             m = defaultdict(int)
+            unique = 0
+            start = 0
+            ans = 0
             for end in range(len(nums)):
-
                 m[nums[end]] += 1
-
                 if m[nums[end]] == 1:
-                    curr +=1
+                    unique +=1
                 
-                while curr > k:
-                    m[nums[start]] -= 1
+                while unique > n:
+                    m[nums[start]] -=1
                     if m[nums[start]] == 0:
-                        curr -=1
+                        unique -=1
                     start +=1
-                
-                total += end -start + 1
-            return total
-        return atMostK(nums, k) - atMostK(nums, k - 1)
+                ans += end - start + 1
+            return ans
+        return atMost(k) - atMost(k -1 )
