@@ -1,34 +1,24 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        
 
+        numDistinct = 0
 
-        ans = 0
-        first = -1
-        second = -1
-        curr = 0
-        lastUsed = -1
+        count = defaultdict(int)
 
-        for i in range(len(fruits)):
-            if first == -1:
-                first = fruits[i]
-                lastUsed = i
-            elif second == -1 and fruits[i] != first:
-                second = fruits[i]
-                lastUsed = i
-            else:
-                if fruits[i] != first and fruits[i] != second:
-                    if fruits[lastUsed] == first:
-                        second = fruits[i]
-                        curr = i - lastUsed  
-                        lastUsed = i
-                    else:
-                        first = fruits[i]
-                        curr = i - lastUsed 
-                        lastUsed = i
-                elif fruits[i] != fruits[lastUsed]:
-                    lastUsed = i
-            curr +=1
-            ans = max(ans,curr)
+        ans ,start =0,0
+
+        for end in range(len(fruits)):
+            count[fruits[end]] +=1
+
+            if count[fruits[end]] == 1:
+                numDistinct +=1
+            
+            while numDistinct >2:
+                count[fruits[start]] -=1
+                if count[fruits[start]] == 0:
+                    numDistinct -=1
+                start +=1
+            
+            ans = max(ans, end - start + 1)
+
         return ans
-                        
