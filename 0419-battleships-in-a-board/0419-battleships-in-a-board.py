@@ -2,7 +2,6 @@ class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         count = 0
         def canMove(row,col):
-            nonlocal board
             return 0 <= row < len(board) and 0 <= col < len(board[0])
 
         dirs = [(-1,0), (0,-1)]
