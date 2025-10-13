@@ -1,28 +1,15 @@
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
-        count = 1
-
-        q = deque()
-        dirs = [(1,0),(0,1),(-1,0),(0,-1)]
+        count = 0
         def canMove(row,col):
             nonlocal board
             return 0 <= row < len(board) and 0 <= col < len(board[0])
+
+        dirs = [(-1,0), (0,-1)]
+
         for row in range(len(board)):
             for col in range(len(board[0])):
-                found = False
-                if board[row][col] == "X":
-                    q.append((row,col))
-                    found = True
-
-                while q:
-                    r,c = q.popleft()
-                    board[r][c] = count
-
-                    for dr,dc in dirs:
-                        if canMove(r+dr,c+dc) and board[r+dr][c+dc] == "X":
-                            q.append((r +dr, c+dc))
-                            board[r+dr][c+dc] = count
-                if found:
+                
+                if (not canMove(row - 1, col) or board[row-1][col] == ".") and (not canMove(row, col - 1) or board[row][col -1] == ".") and board[row][col] == "X":
                     count +=1
-        return count - 1
-
+        return count
