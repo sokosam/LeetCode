@@ -30,7 +30,7 @@ class Solution:
                 largest[i] = s[-1]
             s.append(i)
 
-        print(smallest, largest)
+        # print(smallest, largest)
         ans = 0
         for i in range(len(heights)):
             left,right = 0,0
