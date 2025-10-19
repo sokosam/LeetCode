@@ -1,32 +1,49 @@
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
-
-
-        left = [-1 for i in range(len(heights))]
-        right = [len(heights)  for i in range(len(heights))]
-        maxHeight = 0
-
-
         
+        smallest = [-1]*len(heights)
+        largest = [-1]*len(heights)
 
-        s = []
+        s =[]
         for i in range(len(heights)):
-            while s and heights[s[-1]] > heights[i]:
-                curr = s.pop()
-                right[curr] = i
+            if len(s) == 0:
+                s.append(i)
+            else:
+                while s and heights[s[-1]] >= heights[i]:
+                    s.pop()
+            if not s:
+                smallest[i] = i
+            else:
+                smallest[i] = s[-1]
             s.append(i)
 
-        """
-        3, 2, 6, 5, 1, 2
-        """
         s = []
         for i in range(len(heights)-1,-1,-1):
-            while s and heights[s[-1]] > heights[i]:
-                curr = s.pop()
-                left[curr] = i
+            if len(s) == 0:
+                s.append(i)
+            else:
+                while s and heights[s[-1]] >= heights[i]:
+                    s.pop()
+            if not s:
+                largest[i] = i
+            else:
+                largest[i] = s[-1]
             s.append(i)
 
-        for i in range(len(left)):
-            best = (right[i] - left[i] -1)*heights[i]
-            maxHeight = max(maxHeight, best)
-        return maxHeight
+        print(smallest, largest)
+        ans = 0
+        for i in range(len(heights)):
+            left,right = 0,0
+            if smallest[i] == i:
+                left = i 
+            else:
+                left = i - smallest[i] -1
+            if largest[i] == i:
+                right = len(heights) - i - 1
+            else:
+                right = largest[i] - i - 1
+            
+            ans = max(ans, (left + right + 1)*heights[i] )
+        return ans
+
+
