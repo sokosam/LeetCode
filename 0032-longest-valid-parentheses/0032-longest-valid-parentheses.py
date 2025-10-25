@@ -43,6 +43,6 @@ class Solution:
         # print(validUpTo(s, 2))
         for i in range(len(s)):
             ans = max(ans, validUpTo(s,i))
-        print(dp)
+        # print(dp)
         return ans
 
