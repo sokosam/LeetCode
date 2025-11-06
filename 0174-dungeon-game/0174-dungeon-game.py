@@ -46,7 +46,7 @@ class Solution:
                         recreated[row][col] = float('-inf')
             
             final = recreated[-1][-1]
-            print(m,recreated,final)
+            # print(m,recreated,final)
 
             if final <= 0:
                 l = m +1
