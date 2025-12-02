@@ -27,7 +27,6 @@ class Solution:
         for x,y in points:
             levels[y] +=1
 
-        unique_levels = [key for key in levels]
 
 
         for level in levels:
