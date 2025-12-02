@@ -23,12 +23,11 @@ class Solution:
         total = 0
 
         levels = defaultdict(int)
-        unique_levels = set()
+
         for x,y in points:
             levels[y] +=1
-            unique_levels.add(y)
 
-        unique_levels = list(unique_levels)
+        unique_levels = [key for key in levels]
         unique_levels.sort()
 
         for level in levels:
