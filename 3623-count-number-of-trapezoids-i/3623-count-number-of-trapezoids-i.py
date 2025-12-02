@@ -28,10 +28,9 @@ class Solution:
             levels[y] +=1
 
         unique_levels = [key for key in levels]
-        unique_levels.sort()
+
 
         for level in levels:
-
             points = levels[level]
             top_level = points*(points-1)//2
             total += top_level*running_points % MOD
