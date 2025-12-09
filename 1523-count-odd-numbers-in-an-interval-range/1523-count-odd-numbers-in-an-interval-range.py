@@ -7,8 +7,4 @@ class Solution:
 
         # 8 - 2 = 6
 
-
-        if (high - low +1  )% 2 == 1:
-            return (high-low + 1)//2 + (low % 2)
-        else:
-            return (high-low + 1)//2
+        return (high-low + 1)//2 if (high - low +1  )% 2 == 0 else (high-low + 1)//2 + (low % 2) 
