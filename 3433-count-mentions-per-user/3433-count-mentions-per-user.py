@@ -10,7 +10,7 @@ class Solution:
 
 
         events.sort(key = lambda x : (x[1], x[0])) 
-        print(events)
+        # print(events)
 
         q = deque()
         alls = 0
