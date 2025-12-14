@@ -18,8 +18,8 @@ class Solution:
                     m[ptr - last_seen ] +=1
                 last_seen = ptr
             ptr +=1
-        
+        MOD = 10**9 + 7
         ans = 1
         for num in m:
-            ans *= (num)**m[num]
-        return ans
+            ans *= (num)**m[num] 
+        return ans% MOD
