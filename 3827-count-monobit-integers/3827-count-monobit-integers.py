@@ -8,9 +8,10 @@ class Solution:
 
         
         curr = 1
-        shift = 1
+        shift = 0
 
         while curr - 1 <= n:
             curr <<= 1
             shift +=1
-        return shift - 1
+        return shift 
+        
