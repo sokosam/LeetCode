@@ -31,7 +31,6 @@ class Solution:
 
         survived.extend(s)
         survived = { i[0] : i[1] for i in survived}
-        print(survived, s)
         sorted_survived = []
         for i in range(len(positions)):
             if positions[i] in survived:
