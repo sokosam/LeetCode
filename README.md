@@ -19,6 +19,7 @@
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -44,4 +45,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 <!---LeetCode Topics End-->
