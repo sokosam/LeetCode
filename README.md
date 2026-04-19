@@ -55,9 +55,14 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0086-partition-list](https://github.com/sokosam/LeetCode/tree/main/0086-partition-list/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0086-partition-list](https://github.com/sokosam/LeetCode/tree/main/0086-partition-list/) | Medium |
 <!---LeetCode Topics End-->
