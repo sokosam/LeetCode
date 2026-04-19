@@ -1,28 +1,13 @@
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
         
+        ptr2 = 0
+        farthest = 0
 
-        def find_farthest(nums, curr):
-            l = 0
-            r = len(nums) - 1
-            farthest = 0
-            while l <= r:
-                m = l + (r-l)//2
-                if nums[m] >= curr:
-                    l = m +1 
-                    farthest = m
-                else:
-                    r = m - 1
-
-            return farthest
-
-
-
-        best = 0
         for i in range(len(nums1)):
-            val = nums1[i]
-
-            farthest = find_farthest(nums2, val)
-            if farthest >= i:
-                best = max(best, farthest-i)
-        return best
+            n1 = nums1[i]
+            
+            while ptr2 < len(nums2) and nums2[ptr2] >= n1 :
+                ptr2 += 1
+            farthest = max(farthest, ptr2 - i - 1)
+        return farthest
