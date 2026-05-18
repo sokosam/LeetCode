@@ -8,6 +8,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sokosam/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sokosam/LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
@@ -31,6 +32,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -66,6 +68,7 @@
 | ------- | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sokosam/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sokosam/LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -75,4 +78,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 <!---LeetCode Topics End-->
