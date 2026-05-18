@@ -21,8 +21,6 @@ class SnapshotArray:
                 best = i
         return best
 
-
-
     def get(self, index: int, snap_id: int) -> int:
         if snap_id not in self.track[index]:
             return self.track[index][self.get_max(index,snap_id) ]
