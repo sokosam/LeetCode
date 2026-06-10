@@ -14,6 +14,7 @@
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
+| [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -37,6 +38,7 @@
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
+| [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,6 +56,7 @@
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
+| [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,6 +66,7 @@
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sokosam/LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
