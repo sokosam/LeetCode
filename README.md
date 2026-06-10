@@ -82,4 +82,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2240-number-of-ways-to-buy-pens-and-pencils](https://github.com/sokosam/LeetCode/tree/main/2240-number-of-ways-to-buy-pens-and-pencils/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2240-number-of-ways-to-buy-pens-and-pencils](https://github.com/sokosam/LeetCode/tree/main/2240-number-of-ways-to-buy-pens-and-pencils/) | Medium |
 <!---LeetCode Topics End-->
