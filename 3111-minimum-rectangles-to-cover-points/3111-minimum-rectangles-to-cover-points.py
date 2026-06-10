@@ -7,15 +7,14 @@ class Solution:
 
         """
 
-        points = list(set([points[i][0] for i in range(len(points))]))
         points.sort()
         total = 0
         for i in range(len(points)):
             if i == 0:
-                farthest = points[i] + w
+                farthest = points[i][0] + w
                 total += 1
                 continue
-            x = points[i]
+            x = points[i][0]
             if x > farthest:
                 farthest = x + w
                 total +=1
