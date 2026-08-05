@@ -1,11 +1,9 @@
 class Solution:
     def remainingMethods(self, n: int, k: int, invocations: List[List[int]]) -> List[int]:
-        indir = [0]*n
         adj = [[] for _ in range(n)]
         sus = [False]*n
         for outer, inner in invocations:
             adj[outer].append(inner)
-            indir[inner] += 1
         q = deque()
 
 
