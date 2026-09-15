@@ -4,14 +4,11 @@ class Solution:
         compared_char = chars[0]
         count = 1
         for i in range(1, len(chars)):
-            print(char_ptr, compared_char)
             if chars[i] == compared_char:
                 count += 1
             else:
                 if count != 1:
-                    print(compared_char, 'test')
                     str_count = str(count)
-                    print(str_count)
                     for j in range(1, 1 + len(str_count)):
                         chars[char_ptr + j] = str_count[j - 1]
 
