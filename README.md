@@ -18,6 +18,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -66,6 +67,7 @@
 | ------- | ------- |
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sokosam/LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Two Pointers
@@ -119,4 +121,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 <!---LeetCode Topics End-->
