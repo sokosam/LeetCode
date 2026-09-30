@@ -9,6 +9,7 @@
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sokosam/LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0244-shortest-word-distance-ii](https://github.com/sokosam/LeetCode/tree/main/0244-shortest-word-distance-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -46,6 +47,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -98,6 +100,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 ## Design
@@ -157,4 +160,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
 <!---LeetCode Topics End-->
