@@ -1,32 +1,44 @@
 class WordDistance:
 
-    def __init__(self, wordsDict: List[str]):
-        cnt = 0
-        self.lastSeen = defaultdict(list)
-        for word in wordsDict:
-            self.lastSeen[word].append(cnt)
-            cnt += 1
+    def __init__(self, wordsDict: list[str]):
+        self.indexes =  defaultdict(list)
+        # self.distances = defaultdict(int)
+        for index, word in enumerate(wordsDict):
+            self.indexes[word].append(index)
+
 
     def shortest(self, word1: str, word2: str) -> int:
-        """
-        0 5
-        3 7
-        """ 
+        word2_indexes = self.indexes.get(word2, [])
+        word1_indexes = self.indexes.get(word1, [])
 
-        arr = self.lastSeen[word2]
+        if len(word2_indexes) == 0 or len(word1_indexes) == 0:
+            return -1
+        
         best = float('inf')
-        for index in self.lastSeen[word1]:
-            val = bisect_right(arr, index)
-            if val == 0:
-                best = min(best, abs(arr[0] - index))
-            elif val == len(arr):
-                best = min(best, abs(arr[-1] - index))
-            else:
-                best = min(best, abs(arr[val] - index))
-                best = min(best, abs(arr[val - 1] - index))
+        print(word1,word2, word1_indexes, word2_indexes)
+        for index in word1_indexes:
+            placement = bisect_right(word2_indexes, index)
+
+            if placement == len(word2_indexes):
+                placement -= 1
+            print(placement,index)
+            left = placement - 1
+            right = placement
+
+            diff = abs(word2_indexes[left] - index)
+            best = min(best, diff)
+            print(diff,best)
+
+            if right < len(word2_indexes):
+                diff = abs(word2_indexes[right] - index)
+                best = min(best, diff)
         return best
 
 
+
+
+
+        
 
 
 # Your WordDistance object will be instantiated and called as such:
