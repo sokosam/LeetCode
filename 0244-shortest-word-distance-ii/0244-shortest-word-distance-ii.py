@@ -15,19 +15,16 @@ class WordDistance:
             return -1
         
         best = float('inf')
-        print(word1,word2, word1_indexes, word2_indexes)
         for index in word1_indexes:
             placement = bisect_right(word2_indexes, index)
 
             if placement == len(word2_indexes):
                 placement -= 1
-            print(placement,index)
             left = placement - 1
             right = placement
 
             diff = abs(word2_indexes[left] - index)
             best = min(best, diff)
-            print(diff,best)
 
             if right < len(word2_indexes):
                 diff = abs(word2_indexes[right] - index)
