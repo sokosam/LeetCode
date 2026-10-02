@@ -69,6 +69,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0244-shortest-word-distance-ii](https://github.com/sokosam/LeetCode/tree/main/0244-shortest-word-distance-ii/) | Medium |
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
@@ -135,6 +136,7 @@
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Rolling Hash
 | Problem Name | Difficulty |
@@ -164,4 +166,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
