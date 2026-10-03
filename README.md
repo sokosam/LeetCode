@@ -14,6 +14,7 @@
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
@@ -31,6 +32,7 @@
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
 ## Simulation
@@ -48,6 +50,7 @@
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -83,6 +86,7 @@
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sokosam/LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
@@ -135,11 +139,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -192,4 +198,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 <!---LeetCode Topics End-->
