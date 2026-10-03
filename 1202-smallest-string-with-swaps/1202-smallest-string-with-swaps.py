@@ -1,7 +1,6 @@
 class Solution:
     def smallestStringWithSwaps(self, s: str, pairs: list[list[int]]) -> str:
         par = [i for i in range(len(s))]
-        sets = [{i} for i in s]
 
         def find(a):
             while par[a] != a:
@@ -14,11 +13,9 @@ class Solution:
 
             if parent1 < parent2:
                 par[parent2] = parent1
-                sets[parent1].update(sets[parent2])
 
             else:
                 par[parent1] = parent2
-                sets[parent2].update(sets[parent1]) 
 
         for pair in pairs:
             merge(pair[0], pair[1])
