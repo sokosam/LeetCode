@@ -22,8 +22,8 @@ class Solution:
 
             closed = stack.pop()
 
-            for j in range(closed, index + 1):
-                valid[j] = True
+            valid[closed] = True
+            valid[index] = True
         
 
 
