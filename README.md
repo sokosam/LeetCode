@@ -21,6 +21,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Sorting
@@ -72,6 +73,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0244-shortest-word-distance-ii](https://github.com/sokosam/LeetCode/tree/main/0244-shortest-word-distance-ii/) | Medium |
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
@@ -141,6 +143,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Rolling Hash
 | Problem Name | Difficulty |
@@ -174,6 +177,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
