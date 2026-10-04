@@ -24,6 +24,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Sorting
@@ -84,6 +85,7 @@
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -134,6 +136,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -156,6 +159,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Rolling Hash
 | Problem Name | Difficulty |
@@ -190,6 +194,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
