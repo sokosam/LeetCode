@@ -54,6 +54,7 @@
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -73,6 +74,7 @@
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
+| [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
@@ -94,6 +96,7 @@
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sokosam/LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Two Pointers
@@ -135,6 +138,7 @@
 | ------- | ------- |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [2240-number-of-ways-to-buy-pens-and-pencils](https://github.com/sokosam/LeetCode/tree/main/2240-number-of-ways-to-buy-pens-and-pencils/) | Medium |
+| [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -211,4 +215,8 @@
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 <!---LeetCode Topics End-->
