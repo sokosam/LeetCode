@@ -85,6 +85,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0244-shortest-word-distance-ii](https://github.com/sokosam/LeetCode/tree/main/0244-shortest-word-distance-ii/) | Medium |
 | [0273-integer-to-english-words](https://github.com/sokosam/LeetCode/tree/main/0273-integer-to-english-words/) | Hard |
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
@@ -137,6 +138,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0273-integer-to-english-words](https://github.com/sokosam/LeetCode/tree/main/0273-integer-to-english-words/) | Hard |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [2240-number-of-ways-to-buy-pens-and-pencils](https://github.com/sokosam/LeetCode/tree/main/2240-number-of-ways-to-buy-pens-and-pencils/) | Medium |
@@ -171,6 +173,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/sokosam/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
@@ -207,6 +210,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sokosam/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/sokosam/LeetCode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -224,5 +228,10 @@
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0273-integer-to-english-words](https://github.com/sokosam/LeetCode/tree/main/0273-integer-to-english-words/) | Hard |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 <!---LeetCode Topics End-->
