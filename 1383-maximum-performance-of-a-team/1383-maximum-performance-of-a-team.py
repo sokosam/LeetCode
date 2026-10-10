@@ -3,7 +3,7 @@ class Solution:
         vals = [(speed[i], efficiency[i]) for i in range(n)]
         vals.sort(key =lambda x : x[1])
         MOD = 10**9 + 7
-        print(vals)
+        # print(vals)
 
         largest_k = [0]*n
         heap = []
@@ -17,7 +17,7 @@ class Solution:
             while len(heap) > k - 1:
                 worst = heappop(heap)
                 current_best_speed -= worst
-        print(largest_k)
+        # print(largest_k)
         best = 0
         for i in range(n):
             best = max(best, vals[i][1]*(vals[i][0] +largest_k[i])) 
