@@ -28,7 +28,7 @@ class Solution:
             # print(dp)
             for cindex, col in enumerate(row):
                 dp[rindex + 1][cindex] = dp[rindex][cindex] + col
-        print(dp)
+        # print(dp)
 
 
         # print(dp)
