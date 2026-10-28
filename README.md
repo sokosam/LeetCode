@@ -12,6 +12,7 @@
 | [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1014-best-sightseeing-pair](https://github.com/sokosam/LeetCode/tree/main/1014-best-sightseeing-pair/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
@@ -73,6 +74,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Bucket Sort
@@ -127,6 +129,7 @@
 | ------- | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sokosam/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sokosam/LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/sokosam/LeetCode/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
@@ -141,6 +144,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0427-construct-quad-tree](https://github.com/sokosam/LeetCode/tree/main/0427-construct-quad-tree/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sokosam/LeetCode/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
@@ -174,12 +178,14 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sokosam/LeetCode/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -242,6 +248,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -256,4 +263,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 <!---LeetCode Topics End-->
