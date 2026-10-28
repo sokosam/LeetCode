@@ -26,6 +26,7 @@
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
+| [3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/sokosam/LeetCode/tree/main/3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -244,6 +245,7 @@
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1014-best-sightseeing-pair](https://github.com/sokosam/LeetCode/tree/main/1014-best-sightseeing-pair/) | Medium |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
+| [3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/sokosam/LeetCode/tree/main/3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
