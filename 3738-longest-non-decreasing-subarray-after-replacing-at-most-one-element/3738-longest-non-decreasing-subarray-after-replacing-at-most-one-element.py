@@ -18,7 +18,7 @@ class Solution:
         
         c = Counter(par)
         best = max(c.values())
-        print(par)
+
 
         # for idx in range(1,len(par)):
         #     if par[idx] != par[idx - 1]:
