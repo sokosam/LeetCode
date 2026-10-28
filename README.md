@@ -103,6 +103,7 @@
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0777-swap-adjacent-in-lr-string](https://github.com/sokosam/LeetCode/tree/main/0777-swap-adjacent-in-lr-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/sokosam/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/sokosam/LeetCode/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/sokosam/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
@@ -118,6 +119,7 @@
 | [0086-partition-list](https://github.com/sokosam/LeetCode/tree/main/0086-partition-list/) | Medium |
 | [0244-shortest-word-distance-ii](https://github.com/sokosam/LeetCode/tree/main/0244-shortest-word-distance-ii/) | Medium |
 | [0443-string-compression](https://github.com/sokosam/LeetCode/tree/main/0443-string-compression/) | Medium |
+| [0777-swap-adjacent-in-lr-string](https://github.com/sokosam/LeetCode/tree/main/0777-swap-adjacent-in-lr-string/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 ## Binary Search
