@@ -20,6 +20,7 @@
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sokosam/LeetCode/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
@@ -45,6 +46,7 @@
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
@@ -78,6 +80,7 @@
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Bucket Sort
@@ -177,6 +180,7 @@
 | [0055-jump-game](https://github.com/sokosam/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
