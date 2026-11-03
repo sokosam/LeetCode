@@ -120,6 +120,7 @@
 | [0856-score-of-parentheses](https://github.com/sokosam/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/sokosam/LeetCode/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/sokosam/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/sokosam/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
@@ -144,6 +145,7 @@
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/sokosam/LeetCode/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -227,6 +229,7 @@
 ## Rolling Hash
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
@@ -235,10 +238,12 @@
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 ## Z Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 ## Knuth–Morris–Pratt Algorithm
 | Problem Name | Difficulty |
@@ -247,6 +252,7 @@
 ## Boyer–Moore String-Search Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/sokosam/LeetCode/tree/main/3006-find-beautiful-indices-in-the-given-array-i/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -304,4 +310,20 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/sokosam/LeetCode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Suffix Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Suffix Automaton
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Suffix Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
 <!---LeetCode Topics End-->
