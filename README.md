@@ -27,6 +27,7 @@
 | [1944-number-of-visible-people-in-a-queue](https://github.com/sokosam/LeetCode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sokosam/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
@@ -53,6 +54,7 @@
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
 ## Simulation
@@ -61,6 +63,7 @@
 | [0657-robot-return-to-origin](https://github.com/sokosam/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sokosam/LeetCode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -72,6 +75,7 @@
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Divide and Conquer
@@ -87,6 +91,7 @@
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sokosam/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
