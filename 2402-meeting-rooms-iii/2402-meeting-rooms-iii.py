@@ -25,7 +25,7 @@ class Solution:
                 heappush(pqworking, (max(start,time) + total_time, room))
                 count[room] +=1
         highest = max(count)
-        print(count)
+
         for idx, i in enumerate(count):
             if i == highest:
                 return idx
