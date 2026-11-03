@@ -30,6 +30,7 @@
 | [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sokosam/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3026-maximum-good-subarray-sum](https://github.com/sokosam/LeetCode/tree/main/3026-maximum-good-subarray-sum/) | Medium |
 | [3111-minimum-rectangles-to-cover-points](https://github.com/sokosam/LeetCode/tree/main/3111-minimum-rectangles-to-cover-points/) | Medium |
 | [3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/sokosam/LeetCode/tree/main/3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
@@ -77,6 +78,7 @@
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
+| [3026-maximum-good-subarray-sum](https://github.com/sokosam/LeetCode/tree/main/3026-maximum-good-subarray-sum/) | Medium |
 | [3839-number-of-prefix-connected-groups](https://github.com/sokosam/LeetCode/tree/main/3839-number-of-prefix-connected-groups/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -311,6 +313,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
+| [3026-maximum-good-subarray-sum](https://github.com/sokosam/LeetCode/tree/main/3026-maximum-good-subarray-sum/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
