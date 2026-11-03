@@ -24,6 +24,7 @@
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sokosam/LeetCode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/sokosam/LeetCode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 | [2061-number-of-spaces-cleaning-robot-cleaned](https://github.com/sokosam/LeetCode/tree/main/2061-number-of-spaces-cleaning-robot-cleaned/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
@@ -40,6 +41,7 @@
 | [1021-remove-outermost-parentheses](https://github.com/sokosam/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/sokosam/LeetCode/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/sokosam/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/sokosam/LeetCode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 | [2751-robot-collisions](https://github.com/sokosam/LeetCode/tree/main/2751-robot-collisions/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -298,4 +300,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/sokosam/LeetCode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 <!---LeetCode Topics End-->
