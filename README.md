@@ -19,6 +19,7 @@
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/sokosam/LeetCode/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sokosam/LeetCode/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
@@ -76,6 +77,7 @@
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/sokosam/LeetCode/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [2402-meeting-rooms-iii](https://github.com/sokosam/LeetCode/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2539-count-the-number-of-good-subsequences](https://github.com/sokosam/LeetCode/tree/main/2539-count-the-number-of-good-subsequences/) | Medium |
 | [3026-maximum-good-subarray-sum](https://github.com/sokosam/LeetCode/tree/main/3026-maximum-good-subarray-sum/) | Medium |
@@ -275,6 +277,7 @@
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1014-best-sightseeing-pair](https://github.com/sokosam/LeetCode/tree/main/1014-best-sightseeing-pair/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/sokosam/LeetCode/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
 | [3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/sokosam/LeetCode/tree/main/3738-longest-non-decreasing-subarray-after-replacing-at-most-one-element/) | Medium |
 ## Backtracking
