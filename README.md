@@ -15,6 +15,7 @@
 | [0539-minimum-time-difference](https://github.com/sokosam/LeetCode/tree/main/0539-minimum-time-difference/) | Medium |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
 | [1014-best-sightseeing-pair](https://github.com/sokosam/LeetCode/tree/main/1014-best-sightseeing-pair/) | Medium |
 | [1146-snapshot-array](https://github.com/sokosam/LeetCode/tree/main/1146-snapshot-array/) | Medium |
 | [1198-find-smallest-common-element-in-all-rows](https://github.com/sokosam/LeetCode/tree/main/1198-find-smallest-common-element-in-all-rows/) | Medium |
@@ -211,6 +212,7 @@
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
@@ -227,6 +229,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
@@ -346,4 +349,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
 <!---LeetCode Topics End-->
