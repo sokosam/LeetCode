@@ -92,6 +92,7 @@
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
 | [1383-maximum-performance-of-a-team](https://github.com/sokosam/LeetCode/tree/main/1383-maximum-performance-of-a-team/) | Hard |
 | [2333-minimum-sum-of-squared-difference](https://github.com/sokosam/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
@@ -209,6 +210,7 @@
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
@@ -216,6 +218,7 @@
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/sokosam/LeetCode/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sokosam/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
@@ -223,6 +226,7 @@
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
@@ -276,6 +280,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/sokosam/LeetCode/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/sokosam/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/sokosam/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1014-best-sightseeing-pair](https://github.com/sokosam/LeetCode/tree/main/1014-best-sightseeing-pair/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/sokosam/LeetCode/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1937-maximum-number-of-points-with-cost](https://github.com/sokosam/LeetCode/tree/main/1937-maximum-number-of-points-with-cost/) | Medium |
@@ -337,4 +342,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1044-longest-duplicate-substring](https://github.com/sokosam/LeetCode/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 <!---LeetCode Topics End-->
