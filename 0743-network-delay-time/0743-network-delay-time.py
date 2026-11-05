@@ -8,20 +8,20 @@ class Solution:
         for source, target, time in times:
             adj[source].append((target, time))
 
-        heappush(pq, (k, 0))
+        heappush(pq, (0,k))
         best_times[k] = 0
 
         while pq:
-            source, time = heappop(pq)
+            time, source = heappop(pq)
 
             if time > best_times[source]:
                 continue
-
+            
             for target, weight in adj[source]:
                 if best_times[target] <= time + weight:
                     continue
                 best_times[target] = time + weight
-                heappush(pq, (target, time + weight))
+                heappush(pq, ( time + weight,target))
         
 
         minimum_time =  max(best_times[1:])
