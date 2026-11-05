@@ -11,7 +11,7 @@ class Solution:
 
         while pq:
             cost,stops_left, curr  = heappop(pq)
-            print(curr, adj[curr])
+            # print(curr, adj[curr])
 
             if best[curr][stops_left] < cost:
                 continue
