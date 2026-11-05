@@ -92,6 +92,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sokosam/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/sokosam/LeetCode/tree/main/1353-maximum-number-of-events-that-can-be-attended/) | Medium |
@@ -210,6 +211,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
@@ -219,6 +221,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/sokosam/LeetCode/tree/main/0721-accounts-merge/) | Medium |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/sokosam/LeetCode/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -228,6 +231,7 @@
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0851-loud-and-rich](https://github.com/sokosam/LeetCode/tree/main/0851-loud-and-rich/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sokosam/LeetCode/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -319,6 +323,7 @@
 ## Dijkstra's Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sokosam/LeetCode/tree/main/0778-swim-in-rising-water/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -348,6 +353,7 @@
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0743-network-delay-time](https://github.com/sokosam/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sokosam/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
